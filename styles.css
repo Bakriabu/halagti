@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap');
+
+:root { color-scheme: dark light; }
+body { font-family: 'Cairo', sans-serif; }
+
+html, body, #root { height: 100%; }
+
+.bg-deep { background: linear-gradient(180deg,#071129 0%, #0f172a 100%); }
+.card { box-shadow: 0 10px 30px rgba(2,6,23,0.6); }
